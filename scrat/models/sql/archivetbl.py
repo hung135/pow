@@ -18,7 +18,8 @@ class Archivetbl(Base, metaclass=PowBaseMeta):
         'title' :   { 'type' : 'string', 'maxlength' : 35 },
         'path'  :   { 'type' : 'string' },
         'username'  :   { 'type' : 'string' },
-        "filetype" :   { "type" : "integer", "default" : 0 }  
+        "filetype" :   { "type" : "integer", "default" : 0 }  ,
+        "create_date" : {"type" : "datetime" }
     }
 
     # if you want to define a custom tablename for this model:
