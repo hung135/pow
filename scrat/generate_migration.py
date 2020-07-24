@@ -26,7 +26,7 @@ def generate_migration(message="NONE"):
     
         alembic_cfg = Config(database["sql"]["alembic.ini"])
         script =command.revision(alembic_cfg, autogenerate=True, message=message)
-    #print("... " + str(dir(script)) + " done")
+    print("... " + str(dir(script)) + " done")
     print(" rev: " +str(script.revision))
     print(" path: " +str(script.path))
     

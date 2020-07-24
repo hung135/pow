@@ -16,9 +16,9 @@ class Archivetbl(Base, metaclass=PowBaseMeta):
     #
     schema = {        
         'title' :   { 'type' : 'string', 'maxlength' : 35 },
-        'text1'  :   { 'type' : 'string' },
-        'text2'  :   { 'type' : 'string' },
-        "votes" :   { "type" : "integer", "default" : 0 }  
+        'path'  :   { 'type' : 'string' },
+        'username'  :   { 'type' : 'string' },
+        "filetype" :   { "type" : "integer", "default" : 0 }  
     }
 
     # if you want to define a custom tablename for this model:

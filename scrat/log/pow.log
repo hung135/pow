@@ -4940,3 +4940,728 @@ FROM archivetbls
 2020-07-24 03:47:51,726 - alembic.runtime.migration - INFO - Context impl PostgresqlImpl.
 2020-07-24 03:47:51,729 - alembic.runtime.migration - INFO - Will assume transactional DDL.
 2020-07-24 03:47:51,747 - alembic.runtime.migration - INFO - Running downgrade 23e7419d6e13 -> 32c6d424eb31, added a archivetable model
+2020-07-24 03:55:48,942 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) _configure_property(id, Column)
+2020-07-24 03:55:48,944 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) _configure_property(created_at, Column)
+2020-07-24 03:55:48,944 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) _configure_property(last_updated, Column)
+2020-07-24 03:55:48,945 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) Identified primary key columns: ColumnSet([Column('id', Integer(), table=<archivetbls>, primary_key=True, nullable=False)])
+2020-07-24 03:55:48,946 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) constructed
+2020-07-24 03:55:48,947 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) _configure_property(title, Column)
+2020-07-24 03:55:48,948 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) _configure_property(text1, Column)
+2020-07-24 03:55:48,949 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) _configure_property(text2, Column)
+2020-07-24 03:55:48,950 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) _configure_property(votes, Column)
+2020-07-24 03:55:48,988 - alembic.runtime.migration - INFO - Context impl PostgresqlImpl.
+2020-07-24 03:55:48,991 - alembic.runtime.migration - INFO - Will assume transactional DDL.
+2020-07-24 03:56:09,485 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) _configure_property(id, Column)
+2020-07-24 03:56:09,487 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) _configure_property(created_at, Column)
+2020-07-24 03:56:09,488 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) _configure_property(last_updated, Column)
+2020-07-24 03:56:09,488 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) Identified primary key columns: ColumnSet([Column('id', Integer(), table=<archivetbls>, primary_key=True, nullable=False)])
+2020-07-24 03:56:09,490 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) constructed
+2020-07-24 03:56:09,491 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) _configure_property(title, Column)
+2020-07-24 03:56:09,492 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) _configure_property(text1, Column)
+2020-07-24 03:56:09,493 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) _configure_property(text2, Column)
+2020-07-24 03:56:09,494 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) _configure_property(votes, Column)
+2020-07-24 03:56:09,521 - alembic.runtime.migration - INFO - Context impl PostgresqlImpl.
+2020-07-24 03:56:09,523 - alembic.runtime.migration - INFO - Will assume transactional DDL.
+2020-07-24 03:56:09,551 - alembic.runtime.migration - INFO - Running upgrade  -> 32c6d424eb31, test
+2020-07-24 03:57:18,537 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) _configure_property(id, Column)
+2020-07-24 03:57:18,538 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) _configure_property(created_at, Column)
+2020-07-24 03:57:18,539 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) _configure_property(last_updated, Column)
+2020-07-24 03:57:18,540 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) Identified primary key columns: ColumnSet([Column('id', Integer(), table=<archivetbls>, primary_key=True, nullable=False)])
+2020-07-24 03:57:18,547 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) constructed
+2020-07-24 03:57:18,548 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) _configure_property(title, Column)
+2020-07-24 03:57:18,549 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) _configure_property(text1, Column)
+2020-07-24 03:57:18,550 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) _configure_property(text2, Column)
+2020-07-24 03:57:18,551 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) _configure_property(votes, Column)
+2020-07-24 03:57:18,581 - alembic.runtime.migration - INFO - Context impl PostgresqlImpl.
+2020-07-24 03:57:18,584 - alembic.runtime.migration - INFO - Will assume transactional DDL.
+2020-07-24 03:57:26,558 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) _configure_property(id, Column)
+2020-07-24 03:57:26,559 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) _configure_property(created_at, Column)
+2020-07-24 03:57:26,561 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) _configure_property(last_updated, Column)
+2020-07-24 03:57:26,562 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) Identified primary key columns: ColumnSet([Column('id', Integer(), table=<archivetbls>, primary_key=True, nullable=False)])
+2020-07-24 03:57:26,563 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) constructed
+2020-07-24 03:57:26,564 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) _configure_property(title, Column)
+2020-07-24 03:57:26,565 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) _configure_property(text1, Column)
+2020-07-24 03:57:26,568 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) _configure_property(text2, Column)
+2020-07-24 03:57:26,570 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) _configure_property(votes, Column)
+2020-07-24 03:57:26,599 - alembic.runtime.migration - INFO - Context impl PostgresqlImpl.
+2020-07-24 03:57:26,602 - alembic.runtime.migration - INFO - Will assume transactional DDL.
+2020-07-24 03:57:26,619 - alembic.runtime.migration - INFO - Running downgrade 32c6d424eb31 -> , test
+2020-07-24 03:57:28,890 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) _configure_property(id, Column)
+2020-07-24 03:57:28,891 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) _configure_property(created_at, Column)
+2020-07-24 03:57:28,891 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) _configure_property(last_updated, Column)
+2020-07-24 03:57:28,892 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) Identified primary key columns: ColumnSet([Column('id', Integer(), table=<archivetbls>, primary_key=True, nullable=False)])
+2020-07-24 03:57:28,893 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) constructed
+2020-07-24 03:57:28,894 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) _configure_property(title, Column)
+2020-07-24 03:57:28,894 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) _configure_property(text1, Column)
+2020-07-24 03:57:28,895 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) _configure_property(text2, Column)
+2020-07-24 03:57:28,896 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) _configure_property(votes, Column)
+2020-07-24 03:57:28,924 - alembic.runtime.migration - INFO - Context impl PostgresqlImpl.
+2020-07-24 03:57:28,927 - alembic.runtime.migration - INFO - Will assume transactional DDL.
+2020-07-24 03:57:34,723 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) _configure_property(id, Column)
+2020-07-24 03:57:34,724 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) _configure_property(created_at, Column)
+2020-07-24 03:57:34,724 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) _configure_property(last_updated, Column)
+2020-07-24 03:57:34,725 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) Identified primary key columns: ColumnSet([Column('id', Integer(), table=<archivetbls>, primary_key=True, nullable=False)])
+2020-07-24 03:57:34,726 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) constructed
+2020-07-24 03:57:34,727 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) _configure_property(title, Column)
+2020-07-24 03:57:34,728 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) _configure_property(text1, Column)
+2020-07-24 03:57:34,729 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) _configure_property(text2, Column)
+2020-07-24 03:57:34,729 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) _configure_property(votes, Column)
+2020-07-24 03:57:34,759 - alembic.runtime.migration - INFO - Context impl PostgresqlImpl.
+2020-07-24 03:57:34,762 - alembic.runtime.migration - INFO - Will assume transactional DDL.
+2020-07-24 03:57:34,786 - alembic.runtime.migration - INFO - Running upgrade  -> 32c6d424eb31, test
+2020-07-24 03:57:36,714 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) _configure_property(id, Column)
+2020-07-24 03:57:36,715 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) _configure_property(created_at, Column)
+2020-07-24 03:57:36,716 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) _configure_property(last_updated, Column)
+2020-07-24 03:57:36,716 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) Identified primary key columns: ColumnSet([Column('id', Integer(), table=<archivetbls>, primary_key=True, nullable=False)])
+2020-07-24 03:57:36,717 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) constructed
+2020-07-24 03:57:36,718 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) _configure_property(title, Column)
+2020-07-24 03:57:36,719 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) _configure_property(text1, Column)
+2020-07-24 03:57:36,720 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) _configure_property(text2, Column)
+2020-07-24 03:57:36,720 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) _configure_property(votes, Column)
+2020-07-24 03:57:36,748 - alembic.runtime.migration - INFO - Context impl PostgresqlImpl.
+2020-07-24 03:57:36,750 - alembic.runtime.migration - INFO - Will assume transactional DDL.
+2020-07-24 03:57:39,618 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) _configure_property(id, Column)
+2020-07-24 03:57:39,619 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) _configure_property(created_at, Column)
+2020-07-24 03:57:39,619 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) _configure_property(last_updated, Column)
+2020-07-24 03:57:39,620 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) Identified primary key columns: ColumnSet([Column('id', Integer(), table=<archivetbls>, primary_key=True, nullable=False)])
+2020-07-24 03:57:39,621 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) constructed
+2020-07-24 03:57:39,622 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) _configure_property(title, Column)
+2020-07-24 03:57:39,623 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) _configure_property(text1, Column)
+2020-07-24 03:57:39,624 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) _configure_property(text2, Column)
+2020-07-24 03:57:39,625 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) _configure_property(votes, Column)
+2020-07-24 03:57:39,661 - alembic.runtime.migration - INFO - Context impl PostgresqlImpl.
+2020-07-24 03:57:39,668 - alembic.runtime.migration - INFO - Will assume transactional DDL.
+2020-07-24 03:59:41,313 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) _configure_property(id, Column)
+2020-07-24 03:59:41,315 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) _configure_property(created_at, Column)
+2020-07-24 03:59:41,316 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) _configure_property(last_updated, Column)
+2020-07-24 03:59:41,316 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) Identified primary key columns: ColumnSet([Column('id', Integer(), table=<archivetbls>, primary_key=True, nullable=False)])
+2020-07-24 03:59:41,317 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) constructed
+2020-07-24 03:59:41,319 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) _configure_property(title, Column)
+2020-07-24 03:59:41,319 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) _configure_property(text1, Column)
+2020-07-24 03:59:41,320 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) _configure_property(text2, Column)
+2020-07-24 03:59:41,321 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) _configure_property(votes, Column)
+2020-07-24 03:59:41,354 - alembic.runtime.migration - INFO - Context impl PostgresqlImpl.
+2020-07-24 03:59:41,356 - alembic.runtime.migration - INFO - Will assume transactional DDL.
+2020-07-24 03:59:45,967 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) _configure_property(id, Column)
+2020-07-24 03:59:45,968 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) _configure_property(created_at, Column)
+2020-07-24 03:59:45,969 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) _configure_property(last_updated, Column)
+2020-07-24 03:59:45,970 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) Identified primary key columns: ColumnSet([Column('id', Integer(), table=<archivetbls>, primary_key=True, nullable=False)])
+2020-07-24 03:59:45,970 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) constructed
+2020-07-24 03:59:45,971 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) _configure_property(title, Column)
+2020-07-24 03:59:45,972 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) _configure_property(text1, Column)
+2020-07-24 03:59:45,972 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) _configure_property(text2, Column)
+2020-07-24 03:59:45,973 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) _configure_property(votes, Column)
+2020-07-24 03:59:46,002 - alembic.runtime.migration - INFO - Context impl PostgresqlImpl.
+2020-07-24 03:59:46,004 - alembic.runtime.migration - INFO - Will assume transactional DDL.
+2020-07-24 03:59:50,663 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) _configure_property(id, Column)
+2020-07-24 03:59:50,664 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) _configure_property(created_at, Column)
+2020-07-24 03:59:50,665 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) _configure_property(last_updated, Column)
+2020-07-24 03:59:50,666 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) Identified primary key columns: ColumnSet([Column('id', Integer(), table=<archivetbls>, primary_key=True, nullable=False)])
+2020-07-24 03:59:50,666 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) constructed
+2020-07-24 03:59:50,667 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) _configure_property(title, Column)
+2020-07-24 03:59:50,668 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) _configure_property(text1, Column)
+2020-07-24 03:59:50,669 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) _configure_property(text2, Column)
+2020-07-24 03:59:50,670 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) _configure_property(votes, Column)
+2020-07-24 03:59:50,708 - alembic.runtime.migration - INFO - Context impl PostgresqlImpl.
+2020-07-24 03:59:50,711 - alembic.runtime.migration - INFO - Will assume transactional DDL.
+2020-07-24 04:00:44,602 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) _configure_property(id, Column)
+2020-07-24 04:00:44,603 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) _configure_property(created_at, Column)
+2020-07-24 04:00:44,604 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) _configure_property(last_updated, Column)
+2020-07-24 04:00:44,605 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) Identified primary key columns: ColumnSet([Column('id', Integer(), table=<archivetbls>, primary_key=True, nullable=False)])
+2020-07-24 04:00:44,605 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) constructed
+2020-07-24 04:00:44,606 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) _configure_property(title, Column)
+2020-07-24 04:00:44,607 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) _configure_property(text1, Column)
+2020-07-24 04:00:44,608 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) _configure_property(text2, Column)
+2020-07-24 04:00:44,608 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) _configure_property(votes, Column)
+2020-07-24 04:00:44,635 - alembic.runtime.migration - INFO - Context impl PostgresqlImpl.
+2020-07-24 04:00:44,637 - alembic.runtime.migration - INFO - Will assume transactional DDL.
+2020-07-24 04:00:44,655 - alembic.runtime.migration - INFO - Running upgrade 32c6d424eb31 -> 23e7419d6e13, added a archivetable model
+2020-07-24 04:01:28,552 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) _configure_property(id, Column)
+2020-07-24 04:01:28,554 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) _configure_property(created_at, Column)
+2020-07-24 04:01:28,555 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) _configure_property(last_updated, Column)
+2020-07-24 04:01:28,556 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) Identified primary key columns: ColumnSet([Column('id', Integer(), table=<archivetbls>, primary_key=True, nullable=False)])
+2020-07-24 04:01:28,557 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) constructed
+2020-07-24 04:01:28,557 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) _configure_property(title, Column)
+2020-07-24 04:01:28,558 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) _configure_property(text1, Column)
+2020-07-24 04:01:28,560 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) _configure_property(text2, Column)
+2020-07-24 04:01:28,560 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) _configure_property(votes, Column)
+2020-07-24 04:01:28,585 - alembic.runtime.migration - INFO - Context impl PostgresqlImpl.
+2020-07-24 04:01:28,587 - alembic.runtime.migration - INFO - Will assume transactional DDL.
+2020-07-24 04:01:28,601 - alembic.runtime.migration - INFO - Running upgrade 23e7419d6e13 -> 5c1de05e9881, added a archivetable model
+2020-07-24 04:01:37,974 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) _configure_property(id, Column)
+2020-07-24 04:01:37,975 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) _configure_property(created_at, Column)
+2020-07-24 04:01:37,976 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) _configure_property(last_updated, Column)
+2020-07-24 04:01:37,977 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) Identified primary key columns: ColumnSet([Column('id', Integer(), table=<archivetbls>, primary_key=True, nullable=False)])
+2020-07-24 04:01:37,977 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) constructed
+2020-07-24 04:01:37,978 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) _configure_property(title, Column)
+2020-07-24 04:01:37,979 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) _configure_property(text1, Column)
+2020-07-24 04:01:37,980 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) _configure_property(text2, Column)
+2020-07-24 04:01:37,980 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) _configure_property(votes, Column)
+2020-07-24 04:01:38,005 - alembic.runtime.migration - INFO - Context impl PostgresqlImpl.
+2020-07-24 04:01:38,007 - alembic.runtime.migration - INFO - Will assume transactional DDL.
+2020-07-24 04:01:38,023 - alembic.runtime.migration - INFO - Running upgrade 5c1de05e9881 -> 2e7f67bb55aa, added a archivetable model2
+2020-07-24 04:01:51,292 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) _configure_property(id, Column)
+2020-07-24 04:01:51,293 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) _configure_property(created_at, Column)
+2020-07-24 04:01:51,294 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) _configure_property(last_updated, Column)
+2020-07-24 04:01:51,294 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) Identified primary key columns: ColumnSet([Column('id', Integer(), table=<archivetbls>, primary_key=True, nullable=False)])
+2020-07-24 04:01:51,295 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) constructed
+2020-07-24 04:01:51,296 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) _configure_property(title, Column)
+2020-07-24 04:01:51,297 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) _configure_property(text1, Column)
+2020-07-24 04:01:51,298 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) _configure_property(text2, Column)
+2020-07-24 04:01:51,298 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) _configure_property(votes, Column)
+2020-07-24 04:01:51,323 - alembic.runtime.migration - INFO - Context impl PostgresqlImpl.
+2020-07-24 04:01:51,326 - alembic.runtime.migration - INFO - Will assume transactional DDL.
+2020-07-24 04:01:59,008 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) _configure_property(id, Column)
+2020-07-24 04:01:59,009 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) _configure_property(created_at, Column)
+2020-07-24 04:01:59,009 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) _configure_property(last_updated, Column)
+2020-07-24 04:01:59,010 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) Identified primary key columns: ColumnSet([Column('id', Integer(), table=<archivetbls>, primary_key=True, nullable=False)])
+2020-07-24 04:01:59,011 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) constructed
+2020-07-24 04:01:59,012 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) _configure_property(title, Column)
+2020-07-24 04:01:59,013 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) _configure_property(text1, Column)
+2020-07-24 04:01:59,014 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) _configure_property(text2, Column)
+2020-07-24 04:01:59,015 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) _configure_property(votes, Column)
+2020-07-24 04:01:59,042 - alembic.runtime.migration - INFO - Context impl PostgresqlImpl.
+2020-07-24 04:01:59,044 - alembic.runtime.migration - INFO - Will assume transactional DDL.
+2020-07-24 04:01:59,060 - alembic.runtime.migration - INFO - Running downgrade 2e7f67bb55aa -> 5c1de05e9881, added a archivetable model2
+2020-07-24 04:03:18,876 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) _configure_property(id, Column)
+2020-07-24 04:03:18,877 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) _configure_property(created_at, Column)
+2020-07-24 04:03:18,878 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) _configure_property(last_updated, Column)
+2020-07-24 04:03:18,878 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) Identified primary key columns: ColumnSet([Column('id', Integer(), table=<archivetbls>, primary_key=True, nullable=False)])
+2020-07-24 04:03:18,879 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) constructed
+2020-07-24 04:03:18,880 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) _configure_property(title, Column)
+2020-07-24 04:03:18,881 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) _configure_property(text1, Column)
+2020-07-24 04:03:18,881 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) _configure_property(text2, Column)
+2020-07-24 04:03:18,883 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) _configure_property(votes, Column)
+2020-07-24 04:03:18,916 - alembic.runtime.migration - INFO - Context impl PostgresqlImpl.
+2020-07-24 04:03:18,918 - alembic.runtime.migration - INFO - Will assume transactional DDL.
+2020-07-24 04:03:18,940 - alembic.runtime.migration - INFO - Running upgrade 5c1de05e9881 -> 2e7f67bb55aa, added a archivetable model2
+2020-07-24 04:04:28,009 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) _configure_property(id, Column)
+2020-07-24 04:04:28,010 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) _configure_property(created_at, Column)
+2020-07-24 04:04:28,011 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) _configure_property(last_updated, Column)
+2020-07-24 04:04:28,012 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) Identified primary key columns: ColumnSet([Column('id', Integer(), table=<archivetbls>, primary_key=True, nullable=False)])
+2020-07-24 04:04:28,012 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) constructed
+2020-07-24 04:04:28,013 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) _configure_property(title, Column)
+2020-07-24 04:04:28,014 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) _configure_property(text1, Column)
+2020-07-24 04:04:28,014 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) _configure_property(text2, Column)
+2020-07-24 04:04:28,015 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) _configure_property(votes, Column)
+2020-07-24 04:04:28,031 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) _post_configure_properties() started
+2020-07-24 04:04:28,032 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) initialize prop id
+2020-07-24 04:04:28,034 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) initialize prop created_at
+2020-07-24 04:04:28,035 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) initialize prop last_updated
+2020-07-24 04:04:28,036 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) initialize prop title
+2020-07-24 04:04:28,036 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) initialize prop text1
+2020-07-24 04:04:28,037 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) initialize prop text2
+2020-07-24 04:04:28,038 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) initialize prop votes
+2020-07-24 04:04:28,039 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) _post_configure_properties() complete
+2020-07-24 04:04:52,334 - tornado.access - INFO - 172.19.0.1 304 GET / (172.19.0.1) 44.04ms 2020-07-24 04:04:52
+[I 200724 04:04:52 application:168] 172.19.0.1 304 GET / (172.19.0.1) 44.04ms 2020-07-24 04:04:52
+2020-07-24 04:04:56,911 - tornado.access - INFO - 172.19.0.1 200 GET /archivetbl (172.19.0.1) 2.59ms 2020-07-24 04:04:56
+[I 200724 04:04:56 application:168] 172.19.0.1 200 GET /archivetbl (172.19.0.1) 2.59ms 2020-07-24 04:04:56
+2020-07-24 04:04:56,914 - tornado.access - INFO - 172.19.0.1 200 base.success:archivetbl, index 2020-07-24 04:04:56
+[I 200724 04:04:56 application:175] 172.19.0.1 200 base.success:archivetbl, index 2020-07-24 04:04:56
+2020-07-24 04:04:56,947 - sqlalchemy.engine.base.Engine - INFO - select version()
+[I 200724 04:04:56 base:1235] select version()
+2020-07-24 04:04:56,949 - sqlalchemy.engine.base.Engine - INFO - {}
+[I 200724 04:04:56 base:1240] {}
+2020-07-24 04:04:56,953 - sqlalchemy.engine.base.Engine - INFO - select current_schema()
+[I 200724 04:04:56 base:1235] select current_schema()
+2020-07-24 04:04:56,955 - sqlalchemy.engine.base.Engine - INFO - {}
+[I 200724 04:04:56 base:1240] {}
+2020-07-24 04:04:56,959 - sqlalchemy.engine.base.Engine - INFO - SELECT CAST('test plain returns' AS VARCHAR(60)) AS anon_1
+[I 200724 04:04:56 base:1341] SELECT CAST('test plain returns' AS VARCHAR(60)) AS anon_1
+2020-07-24 04:04:56,961 - sqlalchemy.engine.base.Engine - INFO - {}
+[I 200724 04:04:56 base:1342] {}
+2020-07-24 04:04:56,964 - sqlalchemy.engine.base.Engine - INFO - SELECT CAST('test unicode returns' AS VARCHAR(60)) AS anon_1
+[I 200724 04:04:56 base:1341] SELECT CAST('test unicode returns' AS VARCHAR(60)) AS anon_1
+2020-07-24 04:04:56,966 - sqlalchemy.engine.base.Engine - INFO - {}
+[I 200724 04:04:56 base:1342] {}
+2020-07-24 04:04:56,970 - sqlalchemy.engine.base.Engine - INFO - show standard_conforming_strings
+[I 200724 04:04:56 base:1235] show standard_conforming_strings
+2020-07-24 04:04:56,974 - sqlalchemy.engine.base.Engine - INFO - {}
+[I 200724 04:04:56 base:1240] {}
+2020-07-24 04:04:56,977 - sqlalchemy.engine.base.Engine - INFO - BEGIN (implicit)
+[I 200724 04:04:56 base:730] BEGIN (implicit)
+2020-07-24 04:04:56,980 - sqlalchemy.engine.base.Engine - INFO - SELECT archivetbls.id AS archivetbls_id, archivetbls.created_at AS archivetbls_created_at, archivetbls.last_updated AS archivetbls_last_updated, archivetbls.title AS archivetbls_title, archivetbls.text1 AS archivetbls_text1, archivetbls.text2 AS archivetbls_text2, archivetbls.votes AS archivetbls_votes 
+FROM archivetbls
+[I 200724 04:04:56 base:1235] SELECT archivetbls.id AS archivetbls_id, archivetbls.created_at AS archivetbls_created_at, archivetbls.last_updated AS archivetbls_last_updated, archivetbls.title AS archivetbls_title, archivetbls.text1 AS archivetbls_text1, archivetbls.text2 AS archivetbls_text2, archivetbls.votes AS archivetbls_votes 
+    FROM archivetbls
+2020-07-24 04:04:56,982 - sqlalchemy.engine.base.Engine - INFO - {}
+[I 200724 04:04:56 base:1240] {}
+2020-07-24 04:04:56,998 - tornado.access - INFO - 172.19.0.1 200 GET /archivetbl (172.19.0.1) 88.64ms 2020-07-24 04:04:56
+[I 200724 04:04:56 application:168] 172.19.0.1 200 GET /archivetbl (172.19.0.1) 88.64ms 2020-07-24 04:04:56
+2020-07-24 04:04:59,924 - tornado.access - INFO - 172.19.0.1 200 GET /archivetbl/new (172.19.0.1) 2.12ms 2020-07-24 04:04:59
+[I 200724 04:04:59 application:168] 172.19.0.1 200 GET /archivetbl/new (172.19.0.1) 2.12ms 2020-07-24 04:04:59
+2020-07-24 04:04:59,927 - tornado.access - INFO - 172.19.0.1 200 base.success:archivetbl, new 2020-07-24 04:04:59
+[I 200724 04:04:59 application:175] 172.19.0.1 200 base.success:archivetbl, new 2020-07-24 04:04:59
+2020-07-24 04:04:59,967 - tornado.access - INFO - 172.19.0.1 200 GET /archivetbl/new (172.19.0.1) 45.02ms 2020-07-24 04:04:59
+[I 200724 04:04:59 application:168] 172.19.0.1 200 GET /archivetbl/new (172.19.0.1) 45.02ms 2020-07-24 04:04:59
+2020-07-24 04:05:07,333 - sqlalchemy.engine.base.Engine - INFO - INSERT INTO archivetbls (created_at, last_updated, title, text1, text2, votes) VALUES (now(), now(), %(title)s, %(text1)s, %(text2)s, %(votes)s) RETURNING archivetbls.id
+[I 200724 04:05:07 base:1235] INSERT INTO archivetbls (created_at, last_updated, title, text1, text2, votes) VALUES (now(), now(), %(title)s, %(text1)s, %(text2)s, %(votes)s) RETURNING archivetbls.id
+2020-07-24 04:05:07,335 - sqlalchemy.engine.base.Engine - INFO - {'title': 'test', 'text1': 'test', 'text2': 'test', 'votes': 1}
+[I 200724 04:05:07 base:1240] {'title': 'test', 'text1': 'test', 'text2': 'test', 'votes': 1}
+2020-07-24 04:05:07,339 - sqlalchemy.engine.base.Engine - INFO - COMMIT
+[I 200724 04:05:07 base:772] COMMIT
+2020-07-24 04:05:07,343 - sqlalchemy.engine.base.Engine - INFO - BEGIN (implicit)
+[I 200724 04:05:07 base:730] BEGIN (implicit)
+2020-07-24 04:05:07,346 - sqlalchemy.engine.base.Engine - INFO - SELECT archivetbls.id AS archivetbls_id, archivetbls.created_at AS archivetbls_created_at, archivetbls.last_updated AS archivetbls_last_updated, archivetbls.title AS archivetbls_title, archivetbls.text1 AS archivetbls_text1, archivetbls.text2 AS archivetbls_text2, archivetbls.votes AS archivetbls_votes 
+FROM archivetbls 
+WHERE archivetbls.id = %(param_1)s
+[I 200724 04:05:07 base:1235] SELECT archivetbls.id AS archivetbls_id, archivetbls.created_at AS archivetbls_created_at, archivetbls.last_updated AS archivetbls_last_updated, archivetbls.title AS archivetbls_title, archivetbls.text1 AS archivetbls_text1, archivetbls.text2 AS archivetbls_text2, archivetbls.votes AS archivetbls_votes 
+    FROM archivetbls 
+    WHERE archivetbls.id = %(param_1)s
+2020-07-24 04:05:07,348 - sqlalchemy.engine.base.Engine - INFO - {'param_1': 1}
+[I 200724 04:05:07 base:1240] {'param_1': 1}
+2020-07-24 04:05:07,351 - tornado.access - INFO - 172.19.0.1 200 POST /archivetbl (172.19.0.1) 22.20ms 2020-07-24 04:05:07
+[I 200724 04:05:07 application:168] 172.19.0.1 200 POST /archivetbl (172.19.0.1) 22.20ms 2020-07-24 04:05:07
+2020-07-24 04:05:07,354 - tornado.access - INFO - 172.19.0.1 200 base.success:archivetbl, successfully created 1 2020-07-24 04:05:07
+[I 200724 04:05:07 application:175] 172.19.0.1 200 base.success:archivetbl, successfully created 1 2020-07-24 04:05:07
+2020-07-24 04:05:07,356 - tornado.access - INFO - 172.19.0.1 200 POST /archivetbl (172.19.0.1) 27.18ms 2020-07-24 04:05:07
+[I 200724 04:05:07 application:168] 172.19.0.1 200 POST /archivetbl (172.19.0.1) 27.18ms 2020-07-24 04:05:07
+2020-07-24 04:05:12,210 - tornado.access - INFO - 172.19.0.1 200 GET /archivetbl (172.19.0.1) 2.28ms 2020-07-24 04:05:12
+[I 200724 04:05:12 application:168] 172.19.0.1 200 GET /archivetbl (172.19.0.1) 2.28ms 2020-07-24 04:05:12
+2020-07-24 04:05:12,212 - tornado.access - INFO - 172.19.0.1 200 base.success:archivetbl, index 2020-07-24 04:05:12
+[I 200724 04:05:12 application:175] 172.19.0.1 200 base.success:archivetbl, index 2020-07-24 04:05:12
+2020-07-24 04:05:12,233 - sqlalchemy.engine.base.Engine - INFO - SELECT archivetbls.id AS archivetbls_id, archivetbls.created_at AS archivetbls_created_at, archivetbls.last_updated AS archivetbls_last_updated, archivetbls.title AS archivetbls_title, archivetbls.text1 AS archivetbls_text1, archivetbls.text2 AS archivetbls_text2, archivetbls.votes AS archivetbls_votes 
+FROM archivetbls
+[I 200724 04:05:12 base:1235] SELECT archivetbls.id AS archivetbls_id, archivetbls.created_at AS archivetbls_created_at, archivetbls.last_updated AS archivetbls_last_updated, archivetbls.title AS archivetbls_title, archivetbls.text1 AS archivetbls_text1, archivetbls.text2 AS archivetbls_text2, archivetbls.votes AS archivetbls_votes 
+    FROM archivetbls
+2020-07-24 04:05:12,235 - sqlalchemy.engine.base.Engine - INFO - {}
+[I 200724 04:05:12 base:1240] {}
+2020-07-24 04:05:12,250 - tornado.access - INFO - 172.19.0.1 200 GET /archivetbl (172.19.0.1) 42.20ms 2020-07-24 04:05:12
+[I 200724 04:05:12 application:168] 172.19.0.1 200 GET /archivetbl (172.19.0.1) 42.20ms 2020-07-24 04:05:12
+2020-07-24 04:05:14,794 - tornado.access - INFO - 172.19.0.1 200 GET /archivetbl/new (172.19.0.1) 2.68ms 2020-07-24 04:05:14
+[I 200724 04:05:14 application:168] 172.19.0.1 200 GET /archivetbl/new (172.19.0.1) 2.68ms 2020-07-24 04:05:14
+2020-07-24 04:05:14,796 - tornado.access - INFO - 172.19.0.1 200 base.success:archivetbl, new 2020-07-24 04:05:14
+[I 200724 04:05:14 application:175] 172.19.0.1 200 base.success:archivetbl, new 2020-07-24 04:05:14
+2020-07-24 04:05:14,832 - tornado.access - INFO - 172.19.0.1 304 GET /archivetbl/new (172.19.0.1) 40.89ms 2020-07-24 04:05:14
+[I 200724 04:05:14 application:168] 172.19.0.1 304 GET /archivetbl/new (172.19.0.1) 40.89ms 2020-07-24 04:05:14
+2020-07-24 04:05:21,150 - sqlalchemy.engine.base.Engine - INFO - INSERT INTO archivetbls (created_at, last_updated, title, text1, text2, votes) VALUES (now(), now(), %(title)s, %(text1)s, %(text2)s, %(votes)s) RETURNING archivetbls.id
+[I 200724 04:05:21 base:1235] INSERT INTO archivetbls (created_at, last_updated, title, text1, text2, votes) VALUES (now(), now(), %(title)s, %(text1)s, %(text2)s, %(votes)s) RETURNING archivetbls.id
+2020-07-24 04:05:21,153 - sqlalchemy.engine.base.Engine - INFO - {'title': 'test', 'text1': 'test', 'text2': 'test', 'votes': 1}
+[I 200724 04:05:21 base:1240] {'title': 'test', 'text1': 'test', 'text2': 'test', 'votes': 1}
+2020-07-24 04:05:21,155 - sqlalchemy.engine.base.Engine - INFO - COMMIT
+[I 200724 04:05:21 base:772] COMMIT
+2020-07-24 04:05:21,159 - sqlalchemy.engine.base.Engine - INFO - BEGIN (implicit)
+[I 200724 04:05:21 base:730] BEGIN (implicit)
+2020-07-24 04:05:21,161 - sqlalchemy.engine.base.Engine - INFO - SELECT archivetbls.id AS archivetbls_id, archivetbls.created_at AS archivetbls_created_at, archivetbls.last_updated AS archivetbls_last_updated, archivetbls.title AS archivetbls_title, archivetbls.text1 AS archivetbls_text1, archivetbls.text2 AS archivetbls_text2, archivetbls.votes AS archivetbls_votes 
+FROM archivetbls 
+WHERE archivetbls.id = %(param_1)s
+[I 200724 04:05:21 base:1235] SELECT archivetbls.id AS archivetbls_id, archivetbls.created_at AS archivetbls_created_at, archivetbls.last_updated AS archivetbls_last_updated, archivetbls.title AS archivetbls_title, archivetbls.text1 AS archivetbls_text1, archivetbls.text2 AS archivetbls_text2, archivetbls.votes AS archivetbls_votes 
+    FROM archivetbls 
+    WHERE archivetbls.id = %(param_1)s
+2020-07-24 04:05:21,164 - sqlalchemy.engine.base.Engine - INFO - {'param_1': 2}
+[I 200724 04:05:21 base:1240] {'param_1': 2}
+2020-07-24 04:05:21,168 - tornado.access - INFO - 172.19.0.1 200 POST /archivetbl (172.19.0.1) 20.48ms 2020-07-24 04:05:21
+[I 200724 04:05:21 application:168] 172.19.0.1 200 POST /archivetbl (172.19.0.1) 20.48ms 2020-07-24 04:05:21
+2020-07-24 04:05:21,170 - tornado.access - INFO - 172.19.0.1 200 base.success:archivetbl, successfully created 2 2020-07-24 04:05:21
+[I 200724 04:05:21 application:175] 172.19.0.1 200 base.success:archivetbl, successfully created 2 2020-07-24 04:05:21
+2020-07-24 04:05:21,172 - tornado.access - INFO - 172.19.0.1 200 POST /archivetbl (172.19.0.1) 23.94ms 2020-07-24 04:05:21
+[I 200724 04:05:21 application:168] 172.19.0.1 200 POST /archivetbl (172.19.0.1) 23.94ms 2020-07-24 04:05:21
+2020-07-24 04:05:23,489 - sqlalchemy.engine.base.Engine - INFO - INSERT INTO archivetbls (created_at, last_updated, title, text1, text2, votes) VALUES (now(), now(), %(title)s, %(text1)s, %(text2)s, %(votes)s) RETURNING archivetbls.id
+[I 200724 04:05:23 base:1235] INSERT INTO archivetbls (created_at, last_updated, title, text1, text2, votes) VALUES (now(), now(), %(title)s, %(text1)s, %(text2)s, %(votes)s) RETURNING archivetbls.id
+2020-07-24 04:05:23,491 - sqlalchemy.engine.base.Engine - INFO - {'title': 'test', 'text1': 'test', 'text2': 'test', 'votes': 1}
+[I 200724 04:05:23 base:1240] {'title': 'test', 'text1': 'test', 'text2': 'test', 'votes': 1}
+2020-07-24 04:05:23,495 - sqlalchemy.engine.base.Engine - INFO - COMMIT
+[I 200724 04:05:23 base:772] COMMIT
+2020-07-24 04:05:23,498 - sqlalchemy.engine.base.Engine - INFO - BEGIN (implicit)
+[I 200724 04:05:23 base:730] BEGIN (implicit)
+2020-07-24 04:05:23,501 - sqlalchemy.engine.base.Engine - INFO - SELECT archivetbls.id AS archivetbls_id, archivetbls.created_at AS archivetbls_created_at, archivetbls.last_updated AS archivetbls_last_updated, archivetbls.title AS archivetbls_title, archivetbls.text1 AS archivetbls_text1, archivetbls.text2 AS archivetbls_text2, archivetbls.votes AS archivetbls_votes 
+FROM archivetbls 
+WHERE archivetbls.id = %(param_1)s
+[I 200724 04:05:23 base:1235] SELECT archivetbls.id AS archivetbls_id, archivetbls.created_at AS archivetbls_created_at, archivetbls.last_updated AS archivetbls_last_updated, archivetbls.title AS archivetbls_title, archivetbls.text1 AS archivetbls_text1, archivetbls.text2 AS archivetbls_text2, archivetbls.votes AS archivetbls_votes 
+    FROM archivetbls 
+    WHERE archivetbls.id = %(param_1)s
+2020-07-24 04:05:23,503 - sqlalchemy.engine.base.Engine - INFO - {'param_1': 3}
+[I 200724 04:05:23 base:1240] {'param_1': 3}
+2020-07-24 04:05:23,506 - tornado.access - INFO - 172.19.0.1 200 POST /archivetbl (172.19.0.1) 19.42ms 2020-07-24 04:05:23
+[I 200724 04:05:23 application:168] 172.19.0.1 200 POST /archivetbl (172.19.0.1) 19.42ms 2020-07-24 04:05:23
+2020-07-24 04:05:23,508 - tornado.access - INFO - 172.19.0.1 200 base.success:archivetbl, successfully created 3 2020-07-24 04:05:23
+[I 200724 04:05:23 application:175] 172.19.0.1 200 base.success:archivetbl, successfully created 3 2020-07-24 04:05:23
+2020-07-24 04:05:23,510 - tornado.access - INFO - 172.19.0.1 200 POST /archivetbl (172.19.0.1) 22.90ms 2020-07-24 04:05:23
+[I 200724 04:05:23 application:168] 172.19.0.1 200 POST /archivetbl (172.19.0.1) 22.90ms 2020-07-24 04:05:23
+2020-07-24 04:05:25,673 - sqlalchemy.engine.base.Engine - INFO - INSERT INTO archivetbls (created_at, last_updated, title, text1, text2, votes) VALUES (now(), now(), %(title)s, %(text1)s, %(text2)s, %(votes)s) RETURNING archivetbls.id
+[I 200724 04:05:25 base:1235] INSERT INTO archivetbls (created_at, last_updated, title, text1, text2, votes) VALUES (now(), now(), %(title)s, %(text1)s, %(text2)s, %(votes)s) RETURNING archivetbls.id
+2020-07-24 04:05:25,675 - sqlalchemy.engine.base.Engine - INFO - {'title': 'test', 'text1': 'test', 'text2': 'test', 'votes': 1}
+[I 200724 04:05:25 base:1240] {'title': 'test', 'text1': 'test', 'text2': 'test', 'votes': 1}
+2020-07-24 04:05:25,679 - sqlalchemy.engine.base.Engine - INFO - COMMIT
+[I 200724 04:05:25 base:772] COMMIT
+2020-07-24 04:05:25,683 - sqlalchemy.engine.base.Engine - INFO - BEGIN (implicit)
+[I 200724 04:05:25 base:730] BEGIN (implicit)
+2020-07-24 04:05:25,685 - sqlalchemy.engine.base.Engine - INFO - SELECT archivetbls.id AS archivetbls_id, archivetbls.created_at AS archivetbls_created_at, archivetbls.last_updated AS archivetbls_last_updated, archivetbls.title AS archivetbls_title, archivetbls.text1 AS archivetbls_text1, archivetbls.text2 AS archivetbls_text2, archivetbls.votes AS archivetbls_votes 
+FROM archivetbls 
+WHERE archivetbls.id = %(param_1)s
+[I 200724 04:05:25 base:1235] SELECT archivetbls.id AS archivetbls_id, archivetbls.created_at AS archivetbls_created_at, archivetbls.last_updated AS archivetbls_last_updated, archivetbls.title AS archivetbls_title, archivetbls.text1 AS archivetbls_text1, archivetbls.text2 AS archivetbls_text2, archivetbls.votes AS archivetbls_votes 
+    FROM archivetbls 
+    WHERE archivetbls.id = %(param_1)s
+2020-07-24 04:05:25,687 - sqlalchemy.engine.base.Engine - INFO - {'param_1': 4}
+[I 200724 04:05:25 base:1240] {'param_1': 4}
+2020-07-24 04:05:25,691 - tornado.access - INFO - 172.19.0.1 200 POST /archivetbl (172.19.0.1) 19.66ms 2020-07-24 04:05:25
+[I 200724 04:05:25 application:168] 172.19.0.1 200 POST /archivetbl (172.19.0.1) 19.66ms 2020-07-24 04:05:25
+2020-07-24 04:05:25,692 - tornado.access - INFO - 172.19.0.1 200 base.success:archivetbl, successfully created 4 2020-07-24 04:05:25
+[I 200724 04:05:25 application:175] 172.19.0.1 200 base.success:archivetbl, successfully created 4 2020-07-24 04:05:25
+2020-07-24 04:05:25,694 - tornado.access - INFO - 172.19.0.1 200 POST /archivetbl (172.19.0.1) 23.16ms 2020-07-24 04:05:25
+[I 200724 04:05:25 application:168] 172.19.0.1 200 POST /archivetbl (172.19.0.1) 23.16ms 2020-07-24 04:05:25
+2020-07-24 04:05:31,818 - tornado.access - INFO - 172.19.0.1 200 GET /archivetbl (172.19.0.1) 2.57ms 2020-07-24 04:05:31
+[I 200724 04:05:31 application:168] 172.19.0.1 200 GET /archivetbl (172.19.0.1) 2.57ms 2020-07-24 04:05:31
+2020-07-24 04:05:31,820 - tornado.access - INFO - 172.19.0.1 200 base.success:archivetbl, index 2020-07-24 04:05:31
+[I 200724 04:05:31 application:175] 172.19.0.1 200 base.success:archivetbl, index 2020-07-24 04:05:31
+2020-07-24 04:05:31,848 - sqlalchemy.engine.base.Engine - INFO - SELECT archivetbls.id AS archivetbls_id, archivetbls.created_at AS archivetbls_created_at, archivetbls.last_updated AS archivetbls_last_updated, archivetbls.title AS archivetbls_title, archivetbls.text1 AS archivetbls_text1, archivetbls.text2 AS archivetbls_text2, archivetbls.votes AS archivetbls_votes 
+FROM archivetbls
+[I 200724 04:05:31 base:1235] SELECT archivetbls.id AS archivetbls_id, archivetbls.created_at AS archivetbls_created_at, archivetbls.last_updated AS archivetbls_last_updated, archivetbls.title AS archivetbls_title, archivetbls.text1 AS archivetbls_text1, archivetbls.text2 AS archivetbls_text2, archivetbls.votes AS archivetbls_votes 
+    FROM archivetbls
+2020-07-24 04:05:31,851 - sqlalchemy.engine.base.Engine - INFO - {}
+[I 200724 04:05:31 base:1240] {}
+2020-07-24 04:05:31,870 - tornado.access - INFO - 172.19.0.1 200 GET /archivetbl (172.19.0.1) 55.09ms 2020-07-24 04:05:31
+[I 200724 04:05:31 application:168] 172.19.0.1 200 GET /archivetbl (172.19.0.1) 55.09ms 2020-07-24 04:05:31
+2020-07-24 04:05:59,026 - tornado.general - INFO - /workspace/scrat/models/sql/archivetbl.py modified; restarting server
+[I 200724 04:05:59 autoreload:202] /workspace/scrat/models/sql/archivetbl.py modified; restarting server
+2020-07-24 04:05:59,532 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) _configure_property(id, Column)
+2020-07-24 04:05:59,533 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) _configure_property(created_at, Column)
+2020-07-24 04:05:59,534 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) _configure_property(last_updated, Column)
+2020-07-24 04:05:59,535 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) Identified primary key columns: ColumnSet([Column('id', Integer(), table=<archivetbls>, primary_key=True, nullable=False)])
+2020-07-24 04:05:59,536 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) constructed
+2020-07-24 04:05:59,537 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) _configure_property(title, Column)
+2020-07-24 04:05:59,538 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) _configure_property(path, Column)
+2020-07-24 04:05:59,539 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) _configure_property(username, Column)
+2020-07-24 04:05:59,539 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) _configure_property(votes, Column)
+2020-07-24 04:05:59,555 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) _post_configure_properties() started
+2020-07-24 04:05:59,557 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) initialize prop id
+2020-07-24 04:05:59,560 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) initialize prop created_at
+2020-07-24 04:05:59,561 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) initialize prop last_updated
+2020-07-24 04:05:59,562 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) initialize prop title
+2020-07-24 04:05:59,563 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) initialize prop path
+2020-07-24 04:05:59,564 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) initialize prop username
+2020-07-24 04:05:59,565 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) initialize prop votes
+2020-07-24 04:05:59,566 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) _post_configure_properties() complete
+2020-07-24 04:06:11,050 - tornado.general - INFO - /workspace/scrat/models/sql/archivetbl.py modified; restarting server
+[I 200724 04:06:11 autoreload:202] /workspace/scrat/models/sql/archivetbl.py modified; restarting server
+2020-07-24 04:06:11,538 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) _configure_property(id, Column)
+2020-07-24 04:06:11,540 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) _configure_property(created_at, Column)
+2020-07-24 04:06:11,541 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) _configure_property(last_updated, Column)
+2020-07-24 04:06:11,541 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) Identified primary key columns: ColumnSet([Column('id', Integer(), table=<archivetbls>, primary_key=True, nullable=False)])
+2020-07-24 04:06:11,542 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) constructed
+2020-07-24 04:06:11,543 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) _configure_property(title, Column)
+2020-07-24 04:06:11,544 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) _configure_property(path, Column)
+2020-07-24 04:06:11,545 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) _configure_property(username, Column)
+2020-07-24 04:06:11,546 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) _configure_property(filetype, Column)
+2020-07-24 04:06:11,561 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) _post_configure_properties() started
+2020-07-24 04:06:11,562 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) initialize prop id
+2020-07-24 04:06:11,564 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) initialize prop created_at
+2020-07-24 04:06:11,565 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) initialize prop last_updated
+2020-07-24 04:06:11,565 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) initialize prop title
+2020-07-24 04:06:11,566 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) initialize prop path
+2020-07-24 04:06:11,567 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) initialize prop username
+2020-07-24 04:06:11,568 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) initialize prop filetype
+2020-07-24 04:06:11,568 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) _post_configure_properties() complete
+2020-07-24 04:06:32,124 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) _configure_property(id, Column)
+2020-07-24 04:06:32,125 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) _configure_property(created_at, Column)
+2020-07-24 04:06:32,126 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) _configure_property(last_updated, Column)
+2020-07-24 04:06:32,127 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) Identified primary key columns: ColumnSet([Column('id', Integer(), table=<archivetbls>, primary_key=True, nullable=False)])
+2020-07-24 04:06:32,128 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) constructed
+2020-07-24 04:06:32,129 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) _configure_property(title, Column)
+2020-07-24 04:06:32,129 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) _configure_property(path, Column)
+2020-07-24 04:06:32,130 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) _configure_property(username, Column)
+2020-07-24 04:06:32,131 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) _configure_property(filetype, Column)
+2020-07-24 04:06:32,157 - alembic.runtime.migration - INFO - Context impl PostgresqlImpl.
+2020-07-24 04:06:32,160 - alembic.runtime.migration - INFO - Will assume transactional DDL.
+2020-07-24 04:06:32,205 - alembic.ddl.postgresql - INFO - Detected sequence named 'archivetbls_id_seq' as owned by integer column 'archivetbls(id)', assuming SERIAL and omitting
+2020-07-24 04:06:32,224 - alembic.autogenerate.compare - INFO - Detected added column 'archivetbls.filetype'
+2020-07-24 04:06:32,225 - alembic.autogenerate.compare - INFO - Detected added column 'archivetbls.path'
+2020-07-24 04:06:32,226 - alembic.autogenerate.compare - INFO - Detected added column 'archivetbls.username'
+2020-07-24 04:06:32,227 - alembic.autogenerate.compare - INFO - Detected removed column 'archivetbls.text1'
+2020-07-24 04:06:32,228 - alembic.autogenerate.compare - INFO - Detected removed column 'archivetbls.text2'
+2020-07-24 04:06:32,229 - alembic.autogenerate.compare - INFO - Detected removed column 'archivetbls.votes'
+2020-07-24 04:06:36,548 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) _configure_property(id, Column)
+2020-07-24 04:06:36,549 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) _configure_property(created_at, Column)
+2020-07-24 04:06:36,550 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) _configure_property(last_updated, Column)
+2020-07-24 04:06:36,551 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) Identified primary key columns: ColumnSet([Column('id', Integer(), table=<archivetbls>, primary_key=True, nullable=False)])
+2020-07-24 04:06:36,552 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) constructed
+2020-07-24 04:06:36,554 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) _configure_property(title, Column)
+2020-07-24 04:06:36,555 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) _configure_property(path, Column)
+2020-07-24 04:06:36,556 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) _configure_property(username, Column)
+2020-07-24 04:06:36,557 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) _configure_property(filetype, Column)
+2020-07-24 04:06:36,583 - alembic.runtime.migration - INFO - Context impl PostgresqlImpl.
+2020-07-24 04:06:36,585 - alembic.runtime.migration - INFO - Will assume transactional DDL.
+2020-07-24 04:06:36,600 - alembic.runtime.migration - INFO - Running upgrade 2e7f67bb55aa -> 4b880b34ced0, mod 4
+2020-07-24 04:06:57,719 - tornado.access - INFO - 172.19.0.1 200 GET /archivetbl (172.19.0.1) 2.62ms 2020-07-24 04:06:57
+[I 200724 04:06:57 application:168] 172.19.0.1 200 GET /archivetbl (172.19.0.1) 2.62ms 2020-07-24 04:06:57
+2020-07-24 04:06:57,721 - tornado.access - INFO - 172.19.0.1 200 base.success:archivetbl, index 2020-07-24 04:06:57
+[I 200724 04:06:57 application:175] 172.19.0.1 200 base.success:archivetbl, index 2020-07-24 04:06:57
+2020-07-24 04:06:57,762 - sqlalchemy.engine.base.Engine - INFO - select version()
+[I 200724 04:06:57 base:1235] select version()
+2020-07-24 04:06:57,763 - sqlalchemy.engine.base.Engine - INFO - {}
+[I 200724 04:06:57 base:1240] {}
+2020-07-24 04:06:57,767 - sqlalchemy.engine.base.Engine - INFO - select current_schema()
+[I 200724 04:06:57 base:1235] select current_schema()
+2020-07-24 04:06:57,770 - sqlalchemy.engine.base.Engine - INFO - {}
+[I 200724 04:06:57 base:1240] {}
+2020-07-24 04:06:57,775 - sqlalchemy.engine.base.Engine - INFO - SELECT CAST('test plain returns' AS VARCHAR(60)) AS anon_1
+[I 200724 04:06:57 base:1341] SELECT CAST('test plain returns' AS VARCHAR(60)) AS anon_1
+2020-07-24 04:06:57,778 - sqlalchemy.engine.base.Engine - INFO - {}
+[I 200724 04:06:57 base:1342] {}
+2020-07-24 04:06:57,781 - sqlalchemy.engine.base.Engine - INFO - SELECT CAST('test unicode returns' AS VARCHAR(60)) AS anon_1
+[I 200724 04:06:57 base:1341] SELECT CAST('test unicode returns' AS VARCHAR(60)) AS anon_1
+2020-07-24 04:06:57,783 - sqlalchemy.engine.base.Engine - INFO - {}
+[I 200724 04:06:57 base:1342] {}
+2020-07-24 04:06:57,786 - sqlalchemy.engine.base.Engine - INFO - show standard_conforming_strings
+[I 200724 04:06:57 base:1235] show standard_conforming_strings
+2020-07-24 04:06:57,788 - sqlalchemy.engine.base.Engine - INFO - {}
+[I 200724 04:06:57 base:1240] {}
+2020-07-24 04:06:57,790 - sqlalchemy.engine.base.Engine - INFO - BEGIN (implicit)
+[I 200724 04:06:57 base:730] BEGIN (implicit)
+2020-07-24 04:06:57,793 - sqlalchemy.engine.base.Engine - INFO - SELECT archivetbls.id AS archivetbls_id, archivetbls.created_at AS archivetbls_created_at, archivetbls.last_updated AS archivetbls_last_updated, archivetbls.title AS archivetbls_title, archivetbls.path AS archivetbls_path, archivetbls.username AS archivetbls_username, archivetbls.filetype AS archivetbls_filetype 
+FROM archivetbls
+[I 200724 04:06:57 base:1235] SELECT archivetbls.id AS archivetbls_id, archivetbls.created_at AS archivetbls_created_at, archivetbls.last_updated AS archivetbls_last_updated, archivetbls.title AS archivetbls_title, archivetbls.path AS archivetbls_path, archivetbls.username AS archivetbls_username, archivetbls.filetype AS archivetbls_filetype 
+    FROM archivetbls
+2020-07-24 04:06:57,796 - sqlalchemy.engine.base.Engine - INFO - {}
+[I 200724 04:06:57 base:1240] {}
+2020-07-24 04:06:57,815 - tornado.access - INFO - 172.19.0.1 200 GET /archivetbl (172.19.0.1) 98.03ms 2020-07-24 04:06:57
+[I 200724 04:06:57 application:168] 172.19.0.1 200 GET /archivetbl (172.19.0.1) 98.03ms 2020-07-24 04:06:57
+2020-07-24 04:06:58,468 - tornado.access - INFO - 172.19.0.1 200 GET /static/images/pow_favicon-16x16.png?v=095570cdf218f6f4ce5593422602aff5 (172.19.0.1) 9.75ms 2020-07-24 04:06:58
+[I 200724 04:06:58 application:168] 172.19.0.1 200 GET /static/images/pow_favicon-16x16.png?v=095570cdf218f6f4ce5593422602aff5 (172.19.0.1) 9.75ms 2020-07-24 04:06:58
+2020-07-24 04:07:01,464 - tornado.access - INFO - 172.19.0.1 200 GET /archivetbl/new (172.19.0.1) 3.88ms 2020-07-24 04:07:01
+[I 200724 04:07:01 application:168] 172.19.0.1 200 GET /archivetbl/new (172.19.0.1) 3.88ms 2020-07-24 04:07:01
+2020-07-24 04:07:01,466 - tornado.access - INFO - 172.19.0.1 200 base.success:archivetbl, new 2020-07-24 04:07:01
+[I 200724 04:07:01 application:175] 172.19.0.1 200 base.success:archivetbl, new 2020-07-24 04:07:01
+2020-07-24 04:07:01,500 - tornado.access - INFO - 172.19.0.1 200 GET /archivetbl/new (172.19.0.1) 39.67ms 2020-07-24 04:07:01
+[I 200724 04:07:01 application:168] 172.19.0.1 200 GET /archivetbl/new (172.19.0.1) 39.67ms 2020-07-24 04:07:01
+2020-07-24 04:07:07,810 - sqlalchemy.engine.base.Engine - INFO - INSERT INTO archivetbls (created_at, last_updated, title, path, username, filetype) VALUES (now(), now(), %(title)s, %(path)s, %(username)s, %(filetype)s) RETURNING archivetbls.id
+[I 200724 04:07:07 base:1235] INSERT INTO archivetbls (created_at, last_updated, title, path, username, filetype) VALUES (now(), now(), %(title)s, %(path)s, %(username)s, %(filetype)s) RETURNING archivetbls.id
+2020-07-24 04:07:07,812 - sqlalchemy.engine.base.Engine - INFO - {'title': 'asdafsdf', 'path': 'asdfasdf', 'username': 'sadfs', 'filetype': 111}
+[I 200724 04:07:07 base:1240] {'title': 'asdafsdf', 'path': 'asdfasdf', 'username': 'sadfs', 'filetype': 111}
+2020-07-24 04:07:07,816 - sqlalchemy.engine.base.Engine - INFO - COMMIT
+[I 200724 04:07:07 base:772] COMMIT
+2020-07-24 04:07:07,821 - sqlalchemy.engine.base.Engine - INFO - BEGIN (implicit)
+[I 200724 04:07:07 base:730] BEGIN (implicit)
+2020-07-24 04:07:07,823 - sqlalchemy.engine.base.Engine - INFO - SELECT archivetbls.id AS archivetbls_id, archivetbls.created_at AS archivetbls_created_at, archivetbls.last_updated AS archivetbls_last_updated, archivetbls.title AS archivetbls_title, archivetbls.path AS archivetbls_path, archivetbls.username AS archivetbls_username, archivetbls.filetype AS archivetbls_filetype 
+FROM archivetbls 
+WHERE archivetbls.id = %(param_1)s
+[I 200724 04:07:07 base:1235] SELECT archivetbls.id AS archivetbls_id, archivetbls.created_at AS archivetbls_created_at, archivetbls.last_updated AS archivetbls_last_updated, archivetbls.title AS archivetbls_title, archivetbls.path AS archivetbls_path, archivetbls.username AS archivetbls_username, archivetbls.filetype AS archivetbls_filetype 
+    FROM archivetbls 
+    WHERE archivetbls.id = %(param_1)s
+2020-07-24 04:07:07,825 - sqlalchemy.engine.base.Engine - INFO - {'param_1': 5}
+[I 200724 04:07:07 base:1240] {'param_1': 5}
+2020-07-24 04:07:07,828 - tornado.access - INFO - 172.19.0.1 200 POST /archivetbl (172.19.0.1) 23.74ms 2020-07-24 04:07:07
+[I 200724 04:07:07 application:168] 172.19.0.1 200 POST /archivetbl (172.19.0.1) 23.74ms 2020-07-24 04:07:07
+2020-07-24 04:07:07,829 - tornado.access - INFO - 172.19.0.1 200 base.success:archivetbl, successfully created 5 2020-07-24 04:07:07
+[I 200724 04:07:07 application:175] 172.19.0.1 200 base.success:archivetbl, successfully created 5 2020-07-24 04:07:07
+2020-07-24 04:07:07,832 - tornado.access - INFO - 172.19.0.1 200 POST /archivetbl (172.19.0.1) 28.43ms 2020-07-24 04:07:07
+[I 200724 04:07:07 application:168] 172.19.0.1 200 POST /archivetbl (172.19.0.1) 28.43ms 2020-07-24 04:07:07
+2020-07-24 04:07:34,800 - tornado.access - INFO - 172.19.0.1 200 GET /archivetbl (172.19.0.1) 2.82ms 2020-07-24 04:07:34
+[I 200724 04:07:34 application:168] 172.19.0.1 200 GET /archivetbl (172.19.0.1) 2.82ms 2020-07-24 04:07:34
+2020-07-24 04:07:34,804 - tornado.access - INFO - 172.19.0.1 200 base.success:archivetbl, index 2020-07-24 04:07:34
+[I 200724 04:07:34 application:175] 172.19.0.1 200 base.success:archivetbl, index 2020-07-24 04:07:34
+2020-07-24 04:07:34,828 - sqlalchemy.engine.base.Engine - INFO - SELECT archivetbls.id AS archivetbls_id, archivetbls.created_at AS archivetbls_created_at, archivetbls.last_updated AS archivetbls_last_updated, archivetbls.title AS archivetbls_title, archivetbls.path AS archivetbls_path, archivetbls.username AS archivetbls_username, archivetbls.filetype AS archivetbls_filetype 
+FROM archivetbls
+[I 200724 04:07:34 base:1235] SELECT archivetbls.id AS archivetbls_id, archivetbls.created_at AS archivetbls_created_at, archivetbls.last_updated AS archivetbls_last_updated, archivetbls.title AS archivetbls_title, archivetbls.path AS archivetbls_path, archivetbls.username AS archivetbls_username, archivetbls.filetype AS archivetbls_filetype 
+    FROM archivetbls
+2020-07-24 04:07:34,830 - sqlalchemy.engine.base.Engine - INFO - {}
+[I 200724 04:07:34 base:1240] {}
+2020-07-24 04:07:34,849 - tornado.access - INFO - 172.19.0.1 200 GET /archivetbl (172.19.0.1) 52.74ms 2020-07-24 04:07:34
+[I 200724 04:07:34 application:168] 172.19.0.1 200 GET /archivetbl (172.19.0.1) 52.74ms 2020-07-24 04:07:34
+2020-07-24 04:07:46,424 - sqlalchemy.engine.base.Engine - INFO - SELECT archivetbls.id AS archivetbls_id, archivetbls.created_at AS archivetbls_created_at, archivetbls.last_updated AS archivetbls_last_updated, archivetbls.title AS archivetbls_title, archivetbls.path AS archivetbls_path, archivetbls.username AS archivetbls_username, archivetbls.filetype AS archivetbls_filetype 
+FROM archivetbls 
+WHERE archivetbls.id = %(param_1)s
+[I 200724 04:07:46 base:1235] SELECT archivetbls.id AS archivetbls_id, archivetbls.created_at AS archivetbls_created_at, archivetbls.last_updated AS archivetbls_last_updated, archivetbls.title AS archivetbls_title, archivetbls.path AS archivetbls_path, archivetbls.username AS archivetbls_username, archivetbls.filetype AS archivetbls_filetype 
+    FROM archivetbls 
+    WHERE archivetbls.id = %(param_1)s
+2020-07-24 04:07:46,427 - sqlalchemy.engine.base.Engine - INFO - {'param_1': '1'}
+[I 200724 04:07:46 base:1240] {'param_1': '1'}
+2020-07-24 04:07:46,433 - tornado.access - INFO - 172.19.0.1 200 GET /archivetbl/1/edit (172.19.0.1) 11.24ms 2020-07-24 04:07:46
+[I 200724 04:07:46 application:168] 172.19.0.1 200 GET /archivetbl/1/edit (172.19.0.1) 11.24ms 2020-07-24 04:07:46
+2020-07-24 04:07:46,436 - tornado.access - INFO - 172.19.0.1 200 base.success:archivetbl, edit id: 1 2020-07-24 04:07:46
+[I 200724 04:07:46 application:175] 172.19.0.1 200 base.success:archivetbl, edit id: 1 2020-07-24 04:07:46
+2020-07-24 04:07:46,468 - tornado.access - INFO - 172.19.0.1 200 GET /archivetbl/1/edit (172.19.0.1) 46.76ms 2020-07-24 04:07:46
+[I 200724 04:07:46 application:168] 172.19.0.1 200 GET /archivetbl/1/edit (172.19.0.1) 46.76ms 2020-07-24 04:07:46
+2020-07-24 04:07:55,848 - sqlalchemy.engine.base.Engine - INFO - SELECT archivetbls.id AS archivetbls_id, archivetbls.created_at AS archivetbls_created_at, archivetbls.last_updated AS archivetbls_last_updated, archivetbls.title AS archivetbls_title, archivetbls.path AS archivetbls_path, archivetbls.username AS archivetbls_username, archivetbls.filetype AS archivetbls_filetype 
+FROM archivetbls 
+WHERE archivetbls.id = %(param_1)s
+[I 200724 04:07:55 base:1235] SELECT archivetbls.id AS archivetbls_id, archivetbls.created_at AS archivetbls_created_at, archivetbls.last_updated AS archivetbls_last_updated, archivetbls.title AS archivetbls_title, archivetbls.path AS archivetbls_path, archivetbls.username AS archivetbls_username, archivetbls.filetype AS archivetbls_filetype 
+    FROM archivetbls 
+    WHERE archivetbls.id = %(param_1)s
+2020-07-24 04:07:55,850 - sqlalchemy.engine.base.Engine - INFO - {'param_1': '1'}
+[I 200724 04:07:55 base:1240] {'param_1': '1'}
+2020-07-24 04:07:55,855 - tornado.application - ERROR - Uncaught exception PUT /archivetbl/1 (172.19.0.1)
+HTTPServerRequest(protocol='http', host='localhost:8080', method='PUT', uri='/archivetbl/1', version='HTTP/1.1', remote_ip='172.19.0.1')
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/tornado/web.py", line 1701, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "/workspace/scrat/handlers/base.py", line 246, in put
+    return f(*args, **params)
+  File "/usr/local/lib/python3.7/dist-packages/tornado/web.py", line 3178, in wrapper
+    return method(self, *args, **kwargs)
+  File "/workspace/scrat/handlers/archivetbl.py", line 94, in update
+    res.init_from_json(data_json, simple_conversion=True)
+  File "/workspace/scrat/models/modelobject.py", line 346, in init_from_json
+    return self.init_from_dict(d, ignore, simple_conversion=simple_conversion)
+  File "/workspace/scrat/models/modelobject.py", line 273, in init_from_dict
+    d=pow_init_from_dict_deserializer(d,self.schema, simple_conversion)
+  File "/workspace/scrat/lib/decoders.py", line 73, in pow_init_from_dict_deserializer
+    raise e
+  File "/workspace/scrat/lib/decoders.py", line 68, in pow_init_from_dict_deserializer
+    dct[elem] = int(dct[elem])
+ValueError: invalid literal for int() with base 10: 'None'
+[E 200724 04:07:55 web:1792] Uncaught exception PUT /archivetbl/1 (172.19.0.1)
+    HTTPServerRequest(protocol='http', host='localhost:8080', method='PUT', uri='/archivetbl/1', version='HTTP/1.1', remote_ip='172.19.0.1')
+    Traceback (most recent call last):
+      File "/usr/local/lib/python3.7/dist-packages/tornado/web.py", line 1701, in _execute
+        result = method(*self.path_args, **self.path_kwargs)
+      File "/workspace/scrat/handlers/base.py", line 246, in put
+        return f(*args, **params)
+      File "/usr/local/lib/python3.7/dist-packages/tornado/web.py", line 3178, in wrapper
+        return method(self, *args, **kwargs)
+      File "/workspace/scrat/handlers/archivetbl.py", line 94, in update
+        res.init_from_json(data_json, simple_conversion=True)
+      File "/workspace/scrat/models/modelobject.py", line 346, in init_from_json
+        return self.init_from_dict(d, ignore, simple_conversion=simple_conversion)
+      File "/workspace/scrat/models/modelobject.py", line 273, in init_from_dict
+        d=pow_init_from_dict_deserializer(d,self.schema, simple_conversion)
+      File "/workspace/scrat/lib/decoders.py", line 73, in pow_init_from_dict_deserializer
+        raise e
+      File "/workspace/scrat/lib/decoders.py", line 68, in pow_init_from_dict_deserializer
+        dct[elem] = int(dct[elem])
+    ValueError: invalid literal for int() with base 10: 'None'
+2020-07-24 04:07:55,892 - tornado.access - ERROR - 172.19.0.1 500 PUT /archivetbl/1 (172.19.0.1) 46.51ms 2020-07-24 04:07:55
+[E 200724 04:07:55 application:168] 172.19.0.1 500 PUT /archivetbl/1 (172.19.0.1) 46.51ms 2020-07-24 04:07:55
+2020-07-24 04:08:02,357 - tornado.access - INFO - 172.19.0.1 200 GET /archivetbl (172.19.0.1) 2.37ms 2020-07-24 04:08:02
+[I 200724 04:08:02 application:168] 172.19.0.1 200 GET /archivetbl (172.19.0.1) 2.37ms 2020-07-24 04:08:02
+2020-07-24 04:08:02,360 - tornado.access - INFO - 172.19.0.1 200 base.success:archivetbl, index 2020-07-24 04:08:02
+[I 200724 04:08:02 application:175] 172.19.0.1 200 base.success:archivetbl, index 2020-07-24 04:08:02
+2020-07-24 04:08:02,387 - sqlalchemy.engine.base.Engine - INFO - SELECT archivetbls.id AS archivetbls_id, archivetbls.created_at AS archivetbls_created_at, archivetbls.last_updated AS archivetbls_last_updated, archivetbls.title AS archivetbls_title, archivetbls.path AS archivetbls_path, archivetbls.username AS archivetbls_username, archivetbls.filetype AS archivetbls_filetype 
+FROM archivetbls
+[I 200724 04:08:02 base:1235] SELECT archivetbls.id AS archivetbls_id, archivetbls.created_at AS archivetbls_created_at, archivetbls.last_updated AS archivetbls_last_updated, archivetbls.title AS archivetbls_title, archivetbls.path AS archivetbls_path, archivetbls.username AS archivetbls_username, archivetbls.filetype AS archivetbls_filetype 
+    FROM archivetbls
+2020-07-24 04:08:02,391 - sqlalchemy.engine.base.Engine - INFO - {}
+[I 200724 04:08:02 base:1240] {}
+2020-07-24 04:08:02,410 - tornado.access - INFO - 172.19.0.1 304 GET /archivetbl (172.19.0.1) 55.73ms 2020-07-24 04:08:02
+[I 200724 04:08:02 application:168] 172.19.0.1 304 GET /archivetbl (172.19.0.1) 55.73ms 2020-07-24 04:08:02
+2020-07-24 04:08:04,741 - sqlalchemy.engine.base.Engine - INFO - SELECT archivetbls.id AS archivetbls_id, archivetbls.created_at AS archivetbls_created_at, archivetbls.last_updated AS archivetbls_last_updated, archivetbls.title AS archivetbls_title, archivetbls.path AS archivetbls_path, archivetbls.username AS archivetbls_username, archivetbls.filetype AS archivetbls_filetype 
+FROM archivetbls 
+WHERE archivetbls.id = %(param_1)s
+[I 200724 04:08:04 base:1235] SELECT archivetbls.id AS archivetbls_id, archivetbls.created_at AS archivetbls_created_at, archivetbls.last_updated AS archivetbls_last_updated, archivetbls.title AS archivetbls_title, archivetbls.path AS archivetbls_path, archivetbls.username AS archivetbls_username, archivetbls.filetype AS archivetbls_filetype 
+    FROM archivetbls 
+    WHERE archivetbls.id = %(param_1)s
+2020-07-24 04:08:04,744 - sqlalchemy.engine.base.Engine - INFO - {'param_1': '2'}
+[I 200724 04:08:04 base:1240] {'param_1': '2'}
+2020-07-24 04:08:04,749 - tornado.access - INFO - 172.19.0.1 200 GET /archivetbl/2/edit (172.19.0.1) 11.87ms 2020-07-24 04:08:04
+[I 200724 04:08:04 application:168] 172.19.0.1 200 GET /archivetbl/2/edit (172.19.0.1) 11.87ms 2020-07-24 04:08:04
+2020-07-24 04:08:04,751 - tornado.access - INFO - 172.19.0.1 200 base.success:archivetbl, edit id: 2 2020-07-24 04:08:04
+[I 200724 04:08:04 application:175] 172.19.0.1 200 base.success:archivetbl, edit id: 2 2020-07-24 04:08:04
+2020-07-24 04:08:04,788 - tornado.access - INFO - 172.19.0.1 200 GET /archivetbl/2/edit (172.19.0.1) 50.39ms 2020-07-24 04:08:04
+[I 200724 04:08:04 application:168] 172.19.0.1 200 GET /archivetbl/2/edit (172.19.0.1) 50.39ms 2020-07-24 04:08:04
+2020-07-24 04:08:11,645 - sqlalchemy.engine.base.Engine - INFO - SELECT archivetbls.id AS archivetbls_id, archivetbls.created_at AS archivetbls_created_at, archivetbls.last_updated AS archivetbls_last_updated, archivetbls.title AS archivetbls_title, archivetbls.path AS archivetbls_path, archivetbls.username AS archivetbls_username, archivetbls.filetype AS archivetbls_filetype 
+FROM archivetbls 
+WHERE archivetbls.id = %(param_1)s
+[I 200724 04:08:11 base:1235] SELECT archivetbls.id AS archivetbls_id, archivetbls.created_at AS archivetbls_created_at, archivetbls.last_updated AS archivetbls_last_updated, archivetbls.title AS archivetbls_title, archivetbls.path AS archivetbls_path, archivetbls.username AS archivetbls_username, archivetbls.filetype AS archivetbls_filetype 
+    FROM archivetbls 
+    WHERE archivetbls.id = %(param_1)s
+2020-07-24 04:08:11,649 - sqlalchemy.engine.base.Engine - INFO - {'param_1': '2'}
+[I 200724 04:08:11 base:1240] {'param_1': '2'}
+2020-07-24 04:08:11,653 - sqlalchemy.engine.base.Engine - INFO - UPDATE archivetbls SET last_updated=now(), path=%(path)s, username=%(username)s, filetype=%(filetype)s WHERE archivetbls.id = %(archivetbls_id)s
+[I 200724 04:08:11 base:1235] UPDATE archivetbls SET last_updated=now(), path=%(path)s, username=%(username)s, filetype=%(filetype)s WHERE archivetbls.id = %(archivetbls_id)s
+2020-07-24 04:08:11,655 - sqlalchemy.engine.base.Engine - INFO - {'path': '111', 'username': '111', 'filetype': 111, 'archivetbls_id': 2}
+[I 200724 04:08:11 base:1240] {'path': '111', 'username': '111', 'filetype': 111, 'archivetbls_id': 2}
+2020-07-24 04:08:11,658 - sqlalchemy.engine.base.Engine - INFO - COMMIT
+[I 200724 04:08:11 base:772] COMMIT
+2020-07-24 04:08:11,664 - sqlalchemy.engine.base.Engine - INFO - BEGIN (implicit)
+[I 200724 04:08:11 base:730] BEGIN (implicit)
+2020-07-24 04:08:11,667 - sqlalchemy.engine.base.Engine - INFO - SELECT archivetbls.id AS archivetbls_id, archivetbls.created_at AS archivetbls_created_at, archivetbls.last_updated AS archivetbls_last_updated, archivetbls.title AS archivetbls_title, archivetbls.path AS archivetbls_path, archivetbls.username AS archivetbls_username, archivetbls.filetype AS archivetbls_filetype 
+FROM archivetbls 
+WHERE archivetbls.id = %(param_1)s
+[I 200724 04:08:11 base:1235] SELECT archivetbls.id AS archivetbls_id, archivetbls.created_at AS archivetbls_created_at, archivetbls.last_updated AS archivetbls_last_updated, archivetbls.title AS archivetbls_title, archivetbls.path AS archivetbls_path, archivetbls.username AS archivetbls_username, archivetbls.filetype AS archivetbls_filetype 
+    FROM archivetbls 
+    WHERE archivetbls.id = %(param_1)s
+2020-07-24 04:08:11,669 - sqlalchemy.engine.base.Engine - INFO - {'param_1': 2}
+[I 200724 04:08:11 base:1240] {'param_1': 2}
+2020-07-24 04:08:11,671 - tornado.access - INFO - 172.19.0.1 200 PUT /archivetbl/2 (172.19.0.1) 29.25ms 2020-07-24 04:08:11
+[I 200724 04:08:11 application:168] 172.19.0.1 200 PUT /archivetbl/2 (172.19.0.1) 29.25ms 2020-07-24 04:08:11
+2020-07-24 04:08:11,672 - tornado.access - INFO - 172.19.0.1 200 base.success:archivetbl, successfully updated 2 2020-07-24 04:08:11
+[I 200724 04:08:11 application:175] 172.19.0.1 200 base.success:archivetbl, successfully updated 2 2020-07-24 04:08:11
+2020-07-24 04:08:11,674 - tornado.access - INFO - 172.19.0.1 200 PUT /archivetbl/2 (172.19.0.1) 33.02ms 2020-07-24 04:08:11
+[I 200724 04:08:11 application:168] 172.19.0.1 200 PUT /archivetbl/2 (172.19.0.1) 33.02ms 2020-07-24 04:08:11
+2020-07-24 04:08:13,998 - tornado.access - INFO - 172.19.0.1 200 GET /archivetbl (172.19.0.1) 3.06ms 2020-07-24 04:08:13
+[I 200724 04:08:13 application:168] 172.19.0.1 200 GET /archivetbl (172.19.0.1) 3.06ms 2020-07-24 04:08:13
+2020-07-24 04:08:14,001 - tornado.access - INFO - 172.19.0.1 200 base.success:archivetbl, index 2020-07-24 04:08:14
+[I 200724 04:08:14 application:175] 172.19.0.1 200 base.success:archivetbl, index 2020-07-24 04:08:14
+2020-07-24 04:08:14,031 - sqlalchemy.engine.base.Engine - INFO - SELECT archivetbls.id AS archivetbls_id, archivetbls.created_at AS archivetbls_created_at, archivetbls.last_updated AS archivetbls_last_updated, archivetbls.title AS archivetbls_title, archivetbls.path AS archivetbls_path, archivetbls.username AS archivetbls_username, archivetbls.filetype AS archivetbls_filetype 
+FROM archivetbls
+[I 200724 04:08:14 base:1235] SELECT archivetbls.id AS archivetbls_id, archivetbls.created_at AS archivetbls_created_at, archivetbls.last_updated AS archivetbls_last_updated, archivetbls.title AS archivetbls_title, archivetbls.path AS archivetbls_path, archivetbls.username AS archivetbls_username, archivetbls.filetype AS archivetbls_filetype 
+    FROM archivetbls
+2020-07-24 04:08:14,034 - sqlalchemy.engine.base.Engine - INFO - {}
+[I 200724 04:08:14 base:1240] {}
+2020-07-24 04:08:14,055 - tornado.access - INFO - 172.19.0.1 200 GET /archivetbl (172.19.0.1) 59.61ms 2020-07-24 04:08:14
+[I 200724 04:08:14 application:168] 172.19.0.1 200 GET /archivetbl (172.19.0.1) 59.61ms 2020-07-24 04:08:14
+2020-07-24 04:08:17,140 - sqlalchemy.engine.base.Engine - INFO - SELECT archivetbls.id AS archivetbls_id, archivetbls.created_at AS archivetbls_created_at, archivetbls.last_updated AS archivetbls_last_updated, archivetbls.title AS archivetbls_title, archivetbls.path AS archivetbls_path, archivetbls.username AS archivetbls_username, archivetbls.filetype AS archivetbls_filetype 
+FROM archivetbls 
+WHERE archivetbls.id = %(param_1)s
+[I 200724 04:08:17 base:1235] SELECT archivetbls.id AS archivetbls_id, archivetbls.created_at AS archivetbls_created_at, archivetbls.last_updated AS archivetbls_last_updated, archivetbls.title AS archivetbls_title, archivetbls.path AS archivetbls_path, archivetbls.username AS archivetbls_username, archivetbls.filetype AS archivetbls_filetype 
+    FROM archivetbls 
+    WHERE archivetbls.id = %(param_1)s
+2020-07-24 04:08:17,143 - sqlalchemy.engine.base.Engine - INFO - {'param_1': '3'}
+[I 200724 04:08:17 base:1240] {'param_1': '3'}
+2020-07-24 04:08:17,150 - tornado.access - INFO - 172.19.0.1 200 GET /archivetbl/3/edit (172.19.0.1) 13.12ms 2020-07-24 04:08:17
+[I 200724 04:08:17 application:168] 172.19.0.1 200 GET /archivetbl/3/edit (172.19.0.1) 13.12ms 2020-07-24 04:08:17
+2020-07-24 04:08:17,153 - tornado.access - INFO - 172.19.0.1 200 base.success:archivetbl, edit id: 3 2020-07-24 04:08:17
+[I 200724 04:08:17 application:175] 172.19.0.1 200 base.success:archivetbl, edit id: 3 2020-07-24 04:08:17
+2020-07-24 04:08:17,185 - tornado.access - INFO - 172.19.0.1 200 GET /archivetbl/3/edit (172.19.0.1) 47.93ms 2020-07-24 04:08:17
+[I 200724 04:08:17 application:168] 172.19.0.1 200 GET /archivetbl/3/edit (172.19.0.1) 47.93ms 2020-07-24 04:08:17
+2020-07-24 04:08:25,912 - sqlalchemy.engine.base.Engine - INFO - SELECT archivetbls.id AS archivetbls_id, archivetbls.created_at AS archivetbls_created_at, archivetbls.last_updated AS archivetbls_last_updated, archivetbls.title AS archivetbls_title, archivetbls.path AS archivetbls_path, archivetbls.username AS archivetbls_username, archivetbls.filetype AS archivetbls_filetype 
+FROM archivetbls 
+WHERE archivetbls.id = %(param_1)s
+[I 200724 04:08:25 base:1235] SELECT archivetbls.id AS archivetbls_id, archivetbls.created_at AS archivetbls_created_at, archivetbls.last_updated AS archivetbls_last_updated, archivetbls.title AS archivetbls_title, archivetbls.path AS archivetbls_path, archivetbls.username AS archivetbls_username, archivetbls.filetype AS archivetbls_filetype 
+    FROM archivetbls 
+    WHERE archivetbls.id = %(param_1)s
+2020-07-24 04:08:25,914 - sqlalchemy.engine.base.Engine - INFO - {'param_1': '3'}
+[I 200724 04:08:25 base:1240] {'param_1': '3'}
+2020-07-24 04:08:25,919 - sqlalchemy.engine.base.Engine - INFO - UPDATE archivetbls SET last_updated=now(), path=%(path)s, username=%(username)s, filetype=%(filetype)s WHERE archivetbls.id = %(archivetbls_id)s
+[I 200724 04:08:25 base:1235] UPDATE archivetbls SET last_updated=now(), path=%(path)s, username=%(username)s, filetype=%(filetype)s WHERE archivetbls.id = %(archivetbls_id)s
+2020-07-24 04:08:25,922 - sqlalchemy.engine.base.Engine - INFO - {'path': 'asdfasdf', 'username': 'asdfasdf', 'filetype': 2, 'archivetbls_id': 3}
+[I 200724 04:08:25 base:1240] {'path': 'asdfasdf', 'username': 'asdfasdf', 'filetype': 2, 'archivetbls_id': 3}
+2020-07-24 04:08:25,925 - sqlalchemy.engine.base.Engine - INFO - COMMIT
+[I 200724 04:08:25 base:772] COMMIT
+2020-07-24 04:08:25,928 - sqlalchemy.engine.base.Engine - INFO - BEGIN (implicit)
+[I 200724 04:08:25 base:730] BEGIN (implicit)
+2020-07-24 04:08:25,931 - sqlalchemy.engine.base.Engine - INFO - SELECT archivetbls.id AS archivetbls_id, archivetbls.created_at AS archivetbls_created_at, archivetbls.last_updated AS archivetbls_last_updated, archivetbls.title AS archivetbls_title, archivetbls.path AS archivetbls_path, archivetbls.username AS archivetbls_username, archivetbls.filetype AS archivetbls_filetype 
+FROM archivetbls 
+WHERE archivetbls.id = %(param_1)s
+[I 200724 04:08:25 base:1235] SELECT archivetbls.id AS archivetbls_id, archivetbls.created_at AS archivetbls_created_at, archivetbls.last_updated AS archivetbls_last_updated, archivetbls.title AS archivetbls_title, archivetbls.path AS archivetbls_path, archivetbls.username AS archivetbls_username, archivetbls.filetype AS archivetbls_filetype 
+    FROM archivetbls 
+    WHERE archivetbls.id = %(param_1)s
+2020-07-24 04:08:25,932 - sqlalchemy.engine.base.Engine - INFO - {'param_1': 3}
+[I 200724 04:08:25 base:1240] {'param_1': 3}
+2020-07-24 04:08:25,936 - tornado.access - INFO - 172.19.0.1 200 PUT /archivetbl/3 (172.19.0.1) 26.42ms 2020-07-24 04:08:25
+[I 200724 04:08:25 application:168] 172.19.0.1 200 PUT /archivetbl/3 (172.19.0.1) 26.42ms 2020-07-24 04:08:25
+2020-07-24 04:08:25,938 - tornado.access - INFO - 172.19.0.1 200 base.success:archivetbl, successfully updated 3 2020-07-24 04:08:25
+[I 200724 04:08:25 application:175] 172.19.0.1 200 base.success:archivetbl, successfully updated 3 2020-07-24 04:08:25
+2020-07-24 04:08:25,939 - tornado.access - INFO - 172.19.0.1 200 PUT /archivetbl/3 (172.19.0.1) 30.21ms 2020-07-24 04:08:25
+[I 200724 04:08:25 application:168] 172.19.0.1 200 PUT /archivetbl/3 (172.19.0.1) 30.21ms 2020-07-24 04:08:25
+2020-07-24 04:08:31,453 - tornado.access - INFO - 172.19.0.1 200 GET /archivetbl (172.19.0.1) 2.24ms 2020-07-24 04:08:31
+[I 200724 04:08:31 application:168] 172.19.0.1 200 GET /archivetbl (172.19.0.1) 2.24ms 2020-07-24 04:08:31
+2020-07-24 04:08:31,455 - tornado.access - INFO - 172.19.0.1 200 base.success:archivetbl, index 2020-07-24 04:08:31
+[I 200724 04:08:31 application:175] 172.19.0.1 200 base.success:archivetbl, index 2020-07-24 04:08:31
+2020-07-24 04:08:31,480 - sqlalchemy.engine.base.Engine - INFO - SELECT archivetbls.id AS archivetbls_id, archivetbls.created_at AS archivetbls_created_at, archivetbls.last_updated AS archivetbls_last_updated, archivetbls.title AS archivetbls_title, archivetbls.path AS archivetbls_path, archivetbls.username AS archivetbls_username, archivetbls.filetype AS archivetbls_filetype 
+FROM archivetbls
+[I 200724 04:08:31 base:1235] SELECT archivetbls.id AS archivetbls_id, archivetbls.created_at AS archivetbls_created_at, archivetbls.last_updated AS archivetbls_last_updated, archivetbls.title AS archivetbls_title, archivetbls.path AS archivetbls_path, archivetbls.username AS archivetbls_username, archivetbls.filetype AS archivetbls_filetype 
+    FROM archivetbls
+2020-07-24 04:08:31,481 - sqlalchemy.engine.base.Engine - INFO - {}
+[I 200724 04:08:31 base:1240] {}
+2020-07-24 04:08:31,501 - tornado.access - INFO - 172.19.0.1 200 GET /archivetbl (172.19.0.1) 50.28ms 2020-07-24 04:08:31
+[I 200724 04:08:31 application:168] 172.19.0.1 200 GET /archivetbl (172.19.0.1) 50.28ms 2020-07-24 04:08:31
+2020-07-24 04:10:52,502 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) _configure_property(id, Column)
+2020-07-24 04:10:52,504 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) _configure_property(created_at, Column)
+2020-07-24 04:10:52,505 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) _configure_property(last_updated, Column)
+2020-07-24 04:10:52,506 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) Identified primary key columns: ColumnSet([Column('id', Integer(), table=<archivetbls>, primary_key=True, nullable=False)])
+2020-07-24 04:10:52,507 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) constructed
+2020-07-24 04:10:52,508 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) _configure_property(title, Column)
+2020-07-24 04:10:52,509 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) _configure_property(path, Column)
+2020-07-24 04:10:52,510 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) _configure_property(username, Column)
+2020-07-24 04:10:52,511 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) _configure_property(filetype, Column)
+2020-07-24 04:10:52,532 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) _post_configure_properties() started
+2020-07-24 04:10:52,533 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) initialize prop id
+2020-07-24 04:10:52,534 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) initialize prop created_at
+2020-07-24 04:10:52,535 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) initialize prop last_updated
+2020-07-24 04:10:52,536 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) initialize prop title
+2020-07-24 04:10:52,536 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) initialize prop path
+2020-07-24 04:10:52,537 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) initialize prop username
+2020-07-24 04:10:52,538 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) initialize prop filetype
+2020-07-24 04:10:52,539 - sqlalchemy.orm.mapper.Mapper - INFO - (Archivetbl|archivetbls) _post_configure_properties() complete
